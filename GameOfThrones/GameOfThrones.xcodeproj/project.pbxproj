@@ -13,6 +13,8 @@
 		57D0D231219F70EA00B5753A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D230219F70EA00B5753A /* Assets.xcassets */; };
 		57D0D234219F70EA00B5753A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */; };
 		57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */; };
+		968A9EC521A0B8700017B734 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A9EC421A0B8700017B734 /* DetailViewController.swift */; };
+		968A9ECB21A0CBD80017B734 /* HowTheTableLooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		57D0D233219F70EA00B5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57D0D235219F70EA00B5753A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTEpisdoe.swift; sourceTree = "<group>"; };
+		968A9EC421A0B8700017B734 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTheTableLooks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		57D0D228219F70EA00B5753A /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				57D0D229219F70EA00B5753A /* AppDelegate.swift */,
-				57D0D22B219F70EA00B5753A /* ViewController.swift */,
 				57D0D22D219F70EA00B5753A /* Main.storyboard */,
-				57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */,
-				57D0D230219F70EA00B5753A /* Assets.xcassets */,
-				57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */,
+				968A9EC321A0B8570017B734 /* ViewController */,
+				968A9EC621A0B8880017B734 /* OtherStuff */,
 				57D0D235219F70EA00B5753A /* Info.plist */,
 			);
 			path = GameOfThrones;
+			sourceTree = "<group>";
+		};
+		968A9EC321A0B8570017B734 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */,
+				968A9EC421A0B8700017B734 /* DetailViewController.swift */,
+				57D0D22B219F70EA00B5753A /* ViewController.swift */,
+				968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		968A9EC621A0B8880017B734 /* OtherStuff */ = {
+			isa = PBXGroup;
+			children = (
+				57D0D229219F70EA00B5753A /* AppDelegate.swift */,
+				57D0D230219F70EA00B5753A /* Assets.xcassets */,
+				57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */,
+			);
+			path = OtherStuff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */,
 				57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */,
 				57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */,
+				968A9EC521A0B8700017B734 /* DetailViewController.swift in Sources */,
+				968A9ECB21A0CBD80017B734 /* HowTheTableLooks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P5SSDN939;
 				INFOPLIST_FILE = GameOfThrones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P5SSDN939;
 				INFOPLIST_FILE = GameOfThrones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
