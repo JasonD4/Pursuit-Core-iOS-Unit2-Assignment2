@@ -67,6 +67,50 @@
                                             <segue destination="7FO-57-S8I" kind="show" id="Xe7-cB-mJt"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EpisodeHolderEven" rowHeight="120" id="ufm-eo-PxT" customClass="EvenHowTheTableLooks" customModule="GameOfThrones" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="148" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ufm-eo-PxT" id="Mvg-h8-1uN">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w2U-ep-iQ3">
+                                                    <rect key="frame" x="229" y="0.0" width="131" height="119.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1y5-14-o6Z">
+                                                    <rect key="frame" x="15" y="60" width="214" height="49"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOt-37-MuU">
+                                                    <rect key="frame" x="0.0" y="0.0" width="229" height="60"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="w2U-ep-iQ3" firstAttribute="leading" secondItem="DOt-37-MuU" secondAttribute="trailing" id="0FL-8e-BXD"/>
+                                                <constraint firstItem="1y5-14-o6Z" firstAttribute="top" secondItem="DOt-37-MuU" secondAttribute="bottom" id="4OQ-2g-70a"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="1y5-14-o6Z" secondAttribute="bottom" id="4ls-zT-MHY"/>
+                                                <constraint firstAttribute="bottom" secondItem="w2U-ep-iQ3" secondAttribute="bottom" id="68i-c4-YXk"/>
+                                                <constraint firstItem="DOt-37-MuU" firstAttribute="top" secondItem="Mvg-h8-1uN" secondAttribute="top" id="750-z4-JZZ"/>
+                                                <constraint firstItem="DOt-37-MuU" firstAttribute="height" secondItem="Mvg-h8-1uN" secondAttribute="height" multiplier="0.5" id="Asr-nv-3Y2"/>
+                                                <constraint firstItem="w2U-ep-iQ3" firstAttribute="top" secondItem="Mvg-h8-1uN" secondAttribute="top" id="VPU-qp-rjd"/>
+                                                <constraint firstItem="DOt-37-MuU" firstAttribute="leading" secondItem="Mvg-h8-1uN" secondAttribute="leading" id="cVc-V1-GZ3"/>
+                                                <constraint firstItem="1y5-14-o6Z" firstAttribute="leading" secondItem="Mvg-h8-1uN" secondAttribute="leadingMargin" id="ePM-6u-mSP"/>
+                                                <constraint firstItem="w2U-ep-iQ3" firstAttribute="width" secondItem="Mvg-h8-1uN" secondAttribute="width" multiplier="0.35" id="fWp-ev-O0j"/>
+                                                <constraint firstItem="w2U-ep-iQ3" firstAttribute="leading" secondItem="1y5-14-o6Z" secondAttribute="trailing" id="fke-Su-432"/>
+                                                <constraint firstAttribute="trailing" secondItem="w2U-ep-iQ3" secondAttribute="trailing" constant="15" id="iKY-pJ-ReT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="EvenLabel" destination="DOt-37-MuU" id="TBR-Qg-uIg"/>
+                                            <outlet property="EvenSeason" destination="1y5-14-o6Z" id="bVC-8w-gv8"/>
+                                            <outlet property="evenImage" destination="w2U-ep-iQ3" id="3ij-5o-UYi"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                                 <sections/>
                             </tableView>
@@ -82,7 +126,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="T40-OP-sP9"/>
                     <connections>
-                        <outlet property="episodeCells" destination="cmL-9S-5FY" id="wET-nq-OHW"/>
+                        <outlet property="episodeCells" destination="cmL-9S-5FY" id="eaF-OC-DOI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

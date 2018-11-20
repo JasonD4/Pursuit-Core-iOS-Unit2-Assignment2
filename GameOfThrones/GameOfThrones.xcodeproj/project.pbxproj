@@ -15,6 +15,7 @@
 		57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */; };
 		968A9EC521A0B8700017B734 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A9EC421A0B8700017B734 /* DetailViewController.swift */; };
 		968A9ECB21A0CBD80017B734 /* HowTheTableLooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */; };
+		96CB1B6621A336520073762F /* EvenHowTheTableLooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB1B6521A336520073762F /* EvenHowTheTableLooks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTEpisdoe.swift; sourceTree = "<group>"; };
 		968A9EC421A0B8700017B734 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTheTableLooks.swift; sourceTree = "<group>"; };
+		96CB1B6521A336520073762F /* EvenHowTheTableLooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenHowTheTableLooks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				968A9EC421A0B8700017B734 /* DetailViewController.swift */,
 				57D0D22B219F70EA00B5753A /* ViewController.swift */,
 				968A9ECA21A0CBD80017B734 /* HowTheTableLooks.swift */,
+				96CB1B6521A336520073762F /* EvenHowTheTableLooks.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */,
 				57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */,
 				968A9EC521A0B8700017B734 /* DetailViewController.swift in Sources */,
+				96CB1B6621A336520073762F /* EvenHowTheTableLooks.swift in Sources */,
 				968A9ECB21A0CBD80017B734 /* HowTheTableLooks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
